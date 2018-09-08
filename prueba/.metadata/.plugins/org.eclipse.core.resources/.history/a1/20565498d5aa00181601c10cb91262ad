@@ -1,0 +1,30 @@
+package Modelo;
+
+import java.io.File;
+import java.io.FileWriter;
+
+public class Escribir
+{
+public static void main(String []args)
+{
+
+
+String saludo="28";
+
+try
+{
+File archivo=new File("C:\\Users\\aulamovil06\\Desktop\\monto.txt");
+
+FileWriter escribir=new FileWriter(archivo,true);
+
+escribir.write(saludo);
+
+escribir.close();
+}
+
+catch(Exception e)
+{
+System.out.println("Error al escribir");
+}
+}
+}

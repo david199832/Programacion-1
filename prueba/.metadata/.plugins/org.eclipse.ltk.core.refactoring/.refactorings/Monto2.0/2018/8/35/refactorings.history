@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Controlador.Leer.java&apos; to &apos;Controlador.java&apos;&#x0D;&#x0A;- Original project: &apos;Monto2.0&apos;&#x0D;&#x0A;- Original element: &apos;Controlador.Leer.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Controlador.Controlador.java&apos;" description="Rename compilation unit &apos;Leer.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;Controlador{Leer.java" name="Controlador.java" references="false" stamp="1535471028624" version="1.0"/>
+</session>

@@ -1,0 +1,27 @@
+package Controlador;
+import java.io.FileReader;
+import java.io.BufferedReader;
+public class Leer
+{
+public static void main(String arg[])
+{
+String texto="hola";
+
+try
+{
+FileReader lector=new FileReader("C:\\Users\\aulamovil06\\Desktop\\monto.txt");
+
+BufferedReader contenido=new BufferedReader(lector);
+
+while((texto=contenido.readLine())!=null)
+{
+System.out.println(texto);
+}
+}
+
+catch(Exception e)
+{
+System.out.println("Error al leer");
+}
+}
+}

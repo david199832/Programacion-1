@@ -1,0 +1,29 @@
+package Controlador;
+import java.io.FileReader;
+import java.io.BufferedReader;
+import java.io.FileWriter;
+
+public class Leer {
+
+	public static void main(String[] args) {
+		 String[] nUnidades = {"UN", "DOS", "TRES", "CUATRO", "CINCO", "SEIS", "SIETE", "OCHO", "NUEVE", "DIEZ", "ONCE", "DOCE", "TRECE", "CATORCE", "QUINCE", "DIECISEIS", "DIECISIETE", "DIECIOCHO", "DIECINUEVE", "VEINTE", "VEINTIUN", "VENTIDOS", "VEINTITRES", "VEINTICUATRO", "VEINTICINCO", "VEINTISEIS", "VEINTISIETE", "VEINTIOCHO", "VEINTINUEVE"};
+		    String[] nDecenas = {"DIEZ", "VEINTE", "TREINTA", "CUARENTA", "CINCUENTA", "SESENTA", "SETENTA", "OCHENTA", "NOVENTA"};
+
+		/** FORMA 1 DE ESCRITURA **/
+		FileWriter fichero = null;
+		try {
+
+			fichero = new FileWriter("C:\\Users\\aulamovil06\\Desktop\\monto.txt");
+
+			// Escribimos linea a linea en el fichero
+			for (String linea : nUnidades) {
+				fichero.write(linea + "\n");
+			}
+
+			fichero.close();
+
+		} catch (Exception ex) {
+			System.out.println("Mensaje de la excepción: " + ex.getMessage());
+		}
+	}
+}
