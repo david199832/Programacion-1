@@ -1,0 +1,16 @@
+package Controlador;
+
+import Modelo.Mundo;
+
+public class Controlador {
+	
+	public static Mundo m;
+	
+public static void main(String [] args){
+	
+	m =  new Mundo():
+		
+}
+
+
+}
